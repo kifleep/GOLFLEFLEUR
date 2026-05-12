@@ -1,0 +1,251 @@
+body {
+    font-family: 'Noort';
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    background-image: url('web_bg.png'); /* Replace with your background image URL */
+    background-repeat: repeat;
+    color: white; /* Text color */
+    overflow-x: hidden;
+    letter-spacing: 1px;
+}
+
+@font-face { 
+    font-family: 'Noort'; 
+    src: url('noort-bold.otf'); 
+
+} 
+
+        nav {
+            background-color: #FFFAEE;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+        }
+
+        nav ul li a {
+            display: block;
+            color: #7E483B;
+            text-shadow: none;
+            text-decoration: none;
+            padding: 15px 20px;
+            font-size: 20px;
+            height: 100%;
+            line-height: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #ede7d8;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+.image-container {
+    border: 15px solid; 
+    border-radius: 15px;
+    position: relative;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
+}
+
+.aligned-image {
+    float: left;
+    margin: 14px;
+    border: 12px solid; 
+    border-radius: 15px;
+    position: relative;
+    transition: transform 0.3s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
+}
+
+.big-image {
+    margin-left: 22px;
+    border: 12px solid; 
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
+    transition: transform 0.3s ease;
+}
+
+.big-image:hover {
+    transform: scale(1.01);
+}
+
+.aligned-image:hover {
+    transform: scale(1.05);
+}
+
+.static-image {
+    border: 15px solid; 
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
+}
+
+.infoText {
+    text-align: left; 
+    margin-left: 75px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+}
+
+/* Video container styles */
+.video-container {
+    position: relative;
+    padding-bottom: 24%; /* Aspect ratio for 16:9 videos */
+    overflow: hidden;
+    height: 0px; 
+    width: 100%; 
+    max-width: 560px;     
+    margin-left: 650px; /* Pushes the container to the right */
+    margin-right: 0; /* Ensures there's no margin on the right */
+    border: 15px solid #FFFAEE; /* Light #FFFAEE border */
+    border-radius: 15px; 
+    top: -315px; 
+    right: 8%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+    body a {
+    color: #FFFAEE; /* Default color for links */
+        }
+
+    footer a {
+         color: saddlebrown;
+         text-decoration: none;
+    }
+
+    footer p {
+        position: relative;
+        top: 40px;
+        text-shadow: none;
+    }
+
+div.gallery {
+    overflow: hidden;
+    display: block;
+    transition: transform 0.3s ease;
+    position: relative;
+    margin: 18px;
+    border: 13px solid;
+    float: left;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #FFFAEE;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+div.gallery:hover {
+    transform: scale(1.05);
+}
+
+div.gallery:hover .purchase {
+    opacity: 1;
+}
+
+.purchase:hover {
+    background-color: #008252;
+}
+
+.purchase:active {
+  background-color: #009c62;
+}
+
+div.gallery img {
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    display: block;
+}
+
+.desc {
+    font-size: 18px;
+    background-color: #FBF4E2;
+    color: #7E483B;
+    text-shadow: none;
+    height: 190px;
+    padding: 20px;
+}
+
+div.desc .price {
+    position: absolute;
+    text-align: right;
+    top: 90%;
+    right: 10%;
+    font-size: 120%;
+    color: #a9533f;
+}
+
+div.desc .details {
+    text-align: left;
+    position: absolute;
+    top: 68%;
+    left: 10%;
+    font-size: 15px;
+    color: #bf6b3e;
+}
+
+.purchase {
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Noort';
+    border: 8px solid #048F5C;
+    border-radius: 10px;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    transition: .3s ease;
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    text-align: center;
+    width: 70%;
+    height: 18%;
+    resize: none;
+}
+
+div h3 a {
+    font-size: 22px;
+    text-decoration: none;
+}
+
+h3 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+h3 ul li {
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 12px; 
+    border: 2.5px solid #503831; 
+    border-radius: 5px;"
+}
